@@ -1,4 +1,4 @@
-/*
+
 let cidades = [
   { id: 1, nome: 'Crateús' },
   { id: 2, nome: 'Fortaleza' },
@@ -98,10 +98,10 @@ export function criarServico({ descricao, status, equipamentoId, cidadeId }) {
 
 export function listarMovimentacoes() { return delay([...movimentacoes]) }
 
-*/
 
 
 
+/*
 const delay = (data, ms = 200) =>
   new Promise((resolve) => setTimeout(() => resolve(data), ms))
 
@@ -139,4 +139,4 @@ export function criarServico({ descricao, status, equipamentoId, cidadeId }) {
 
 export function listarMovimentacoes() { 
   return delay([]) 
-}
+}*/
